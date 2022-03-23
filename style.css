@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+.main {
+    background: #5A3774;
+    height: 500px;
+    width: 800px;
+    margin: 20px auto;
+    position: absolute;
+    left: 25%;
+    top: 12%;
+}
+
+.form {
+    height: 350px;
+    width: 600px;
+    margin: 0px auto;
+    position: relative;
+    top: 15%;
+    display: flex;
+    border-radius: 5px;
+}
+
+.login_left {
+    flex: 40%;
+    background: linear-gradient(180deg, #FBFBFC, #DBD4E1);
+    border-radius: 5px 0px 0px 5px;
+}
+
+.login_left p {
+    margin: 10px;
+    color: #735689;
+}
+
+
+.login_return {
+    margin-right: 10px;
+    border-radius: 50px;
+    border: 1px solid #735689;
+    color: #735689;
+    font-size: 12px;
+    padding: 4px 6px;
+
+}
+
+.login_left h3 {
+    color: #735689;
+    margin: 40px 30px;
+    text-align: center;
+}
+
+.input {
+    text-align: left;
+    margin: 5px 35px;
+    background: #EEEBF1;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #cac8cc;
+    /*font-weight: 100;*/
+    padding: 5px;
+    outline: none;
+}
+
+.lets_go {
+    background: #583672;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-left: 58px;
+    margin-top: 40px;
+    box-shadow: 5px 6px 7px #583672;
+}
+
+::placeholder {
+    color: #735689;
+    opacity: .6;
+}
+
+.slider_right {
+    flex: 60%;
+}
+
+.slider_right img {
+    height: 100%;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.overlay {
+    background: linear-gradient(210deg, #ea075b, #d838d7);
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    top: 0%;
+    opacity: .7;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.over_tex {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+}
+
+.over_tex h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.p_text {
+    text-align: center;
+
+}
+
+.slider {
+    text-align: center;
+    margin-left: 80px;
+}
+
+.slider i {
+    margin-left: 10px;
+}
